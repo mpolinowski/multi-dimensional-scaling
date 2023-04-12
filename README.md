@@ -121,7 +121,7 @@ fig = plt.figure(figsize=(10, 8))
 sns.scatterplot(x='MDS1', y='MDS2', hue='Class', data=data_norm)
 ```
 
-![Multidimensional Scaling (MDS)](https://github.com/mpolinowski/tstochastic-neighbor-embedding/blob/master/assets/Multi-Dimensional_Scaling_01.png)
+![Multidimensional Scaling (MDS)](https://github.com/mpolinowski/multi-dimensional-scaling/blob/master/assets/Multi-Dimensional_Scaling_01.png)
 
 
 ## 3-Dimensional Plot
@@ -170,4 +170,4 @@ ax = fig.add_subplot(projection='3d')
 ax.scatter(xs=x, ys=y, zs=z, s=50, c=colours)
 ```
 
-![Multidimensional Scaling (MDS)](https://github.com/mpolinowski/tstochastic-neighbor-embedding/blob/master/assets/Multi-Dimensional_Scaling_02.png)
+![Multidimensional Scaling (MDS)](https://github.com/mpolinowski/multi-dimensional-scaling/blob/master/assets/Multi-Dimensional_Scaling_02.png)
